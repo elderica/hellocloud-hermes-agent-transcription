@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+
+# Secrets
+.env
+*.env
+HELLOCLOUD_API_KEY
+
+# Generated media / caches
+*.mp3
+*.mp4
+*.m4a
+*.wav
+*.flac
+*.ogg
+*.webm
+cache/
+
+# Editor
+.vscode/
+.idea/
+*.swp
+.DS_Store

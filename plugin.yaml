@@ -1,0 +1,8 @@
+name: hellocloud-transcription
+version: 0.1.0
+description: "HelloCloud (router.hello.ai) 音声文字起こしバックエンド — Whisper Large V3 / Turbo 対応"
+author: elderica
+kind: backend
+requires_hermes: ">=0.22.5"
+requires_env:
+  - HELLOCLOUD_API_KEY
